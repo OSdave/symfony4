@@ -58,7 +58,7 @@ kill *all* our code. Enter "q" to get out of the `git add -p` system. We'll need
 to make this change manually. First, undo *all* of the changes by running:
 
 ```terminal
-get checkout config/services.yaml
+git checkout config/services.yaml
 ```
 
 Move back and look at the file in our editor... the custom code is back!
